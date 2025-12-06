@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# Wrapper script for Ren Graph Challenge
+
+# If python3 exists, run the Python solution
+if command -v python3 &>/dev/null; then
+    python3 "$(dirname "$0")/graph_solution.py" "$1"
+    exit $?
+fi
+
+# Otherwise try python
+if command -v python &>/dev/null; then
+    python "$(dirname "$0")/graph_solution.py" "$1"
+    exit $?
+fi
+
+echo "Error: Python3 is not installed."
+exit 1
