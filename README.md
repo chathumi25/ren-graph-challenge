@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ren Graph Processing Challenge
 This repository contains my solution to the Ren Systems Engineering coding challenge.  
 The task involves reading a directed graph in CSV format, computing several graph metrics,  
@@ -63,3 +64,7 @@ Since there are no external dependencies, requirements.txt is intentionally empt
 
 
 
+=======
+# ren-graph-challenge
+Solution for Ren Systems Engineering Graph Processing Challenge.
+>>>>>>> 4cbcbe50692d2ebddd9fea0ba30bc9e9a848c8ff
