@@ -13,7 +13,8 @@ The program outputs the following metrics for any given graph:
 - **pr_min** minimum PageRank value after 20 iterations  
 
 ## Project Structure
-ren-graph-challenge/
+ren-graph-challenge
+
 │
 ├── graph_solution           
 ├── graph_solution.py        
